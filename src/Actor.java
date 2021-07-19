@@ -71,6 +71,7 @@ public class Actor {
      * ταινιών που έχει παίξει προς τον αριθμό των οσκαρικών ταινιών που έχει παίξει.
      * This method computes the "popularity" of the actor. The popularity is the total number of movies he/she
      * participated to the total number of oscar-winning movies he/she participated.
+     * double value = (double) value
      */
     public double popularity() {
         int totalOscars = 0;
